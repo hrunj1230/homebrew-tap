@@ -7,7 +7,7 @@ cask "podrouter" do
   desc "Turn RunPod GPU pods on and off from a Mac app"
   homepage "https://github.com/hrunj1230/podrouter"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on formula: "python@3.12"
 
   app "podrouter.app"
